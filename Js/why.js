@@ -28,7 +28,7 @@ const whyData = [
 const constainer = document.getElementById("why-section");
 
 constainer.innerHTML = whyData.map(data=>{
-    return `<div class="why-section_box">
+    return `<div class="why-section_box box-popUp">
     <div class="why-section_bg">
       <img src="../images/whyUs/why-bg.png" alt="world's map">
     </div>
